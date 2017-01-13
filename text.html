@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Flipster Demo</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=550, initial-scale=1">
+	<link rel="stylesheet" href="./css/third/font-awesome.min.css">
+	<link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/index.css">
+
+
+	<link rel="stylesheet" href="./third/jquery.flipster.min.css">
+	<script src="./js/jquery.js"></script>
+	<script src="./third/jquery.flipster.min.js"></script>
+	<script src="./js/respond.js"></script>
+</head>
+<body>
+<div id="classic-case">
+	<div class="container-fluid classic-case-content">
+<div class="col-md-6">
+			<div class="part4 service-block">
+<div id="carousel">
+        <ul class="flip-items">
+            <li>
+                <img src="img/index/cc/p4img1.jpg" class="img-responsive" width="300px" height="300px">
+            </li>
+            <li>
+                <img src="img/index/cc/p4img1.jpg" class="img-responsive" width="300px" height="300px">
+             </li>
+            <li data-flip-title="Deep Lilac" data-flip-category="Purples">
+                <img src="img/index/cc/p4img1.jpg" class="img-responsive" width="300px" height="300px">
+            </li>
+           <li data-flip-title="Deep Lilac" data-flip-category="Purples">
+                <img src="img/index/cc/p4img1.jpg" class="img-responsive" width="300px" height="300px">
+            </li>
+            <li data-flip-title="Deep Lilac" data-flip-category="Purples">
+                <img src="img/index/cc/p4img1.jpg" class="img-responsive" width="300px" height="300px">
+            </li>
+        </ul>
+    </div>
+</div>
+</div>
+</div>
+</div>
+<script>
+    var carousel = $("#carousel").flipster({
+        style: 'carousel',
+        spacing: -0.5,
+        nav: true,
+        buttons:   true,
+    });
+</script>
+
+
+</body>
+</html>
